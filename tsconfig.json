@@ -12,11 +12,15 @@
     "declarationMap": true,
     "forceConsistentCasingInFileNames": true
   },
-  
-  // 👇 KRİTİK DÜZELTME
-  // Tüm alt klasörleri dahil etmek için * (wildcard) kullanın
-  "include": ["src/**/*"], 
-  
-  // node_modules ve dist'i hariç tutarak sadece bu projenin kaynak kodunda kalmasını sağlayın
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/scripts",
+    "src/scenarios",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
 }
