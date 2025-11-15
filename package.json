@@ -1,5 +1,5 @@
 {
-  "name": "@slkzgm/gigaverse-sdk",
+  "name": "gigaverse-sdk",
   "version": "0.0.9",
   "description": "A TypeScript-based SDK for Gigaverse",
   "main": "dist/index.js",
